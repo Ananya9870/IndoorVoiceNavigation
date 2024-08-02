@@ -45,6 +45,3 @@ elif"play music" in ltext:
     response ="opening music on Youtube"
     print(response)
     speak(response)
-
-
-
