@@ -47,5 +47,5 @@ elif"play music" in ltext:
     speak(response)
 else:
     import chatbot.py
-    print(chatbot.respond())
-    speak(chatbot.respond())
+    print(chatbot.respond(ltext))
+    speak(chatbot.respond(ltext))
