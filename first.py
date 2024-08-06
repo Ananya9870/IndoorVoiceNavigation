@@ -45,3 +45,7 @@ elif"play music" in ltext:
     response ="opening music on Youtube"
     print(response)
     speak(response)
+else:
+    import chatbot.py
+    print(chatbot.respond())
+    speak(chatbot.respond())
