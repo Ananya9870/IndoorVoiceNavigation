@@ -27,4 +27,4 @@ def respond(text):
 
     # Generate a response
     answer = llm([HumanMessage(content=prompt)])
-    return answer
+    return answer.content
