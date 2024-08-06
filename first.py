@@ -4,7 +4,7 @@ import speech_recognition as sr
 import pyttsx3
 # Initialize the recognizer
 recognizer = sr.Recognizer()
-
+import chatbot
 # Capture audio from the microphone
 with sr.Microphone() as source:
     print("Please say something...")
@@ -46,6 +46,5 @@ elif"play music" in ltext:
     print(response)
     speak(response)
 else:
-    import chatbot.py
     print(chatbot.respond(ltext))
     speak(chatbot.respond(ltext))
